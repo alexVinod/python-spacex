@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	.cursor-pointer {cursor:pointer}
+    tbody tr {}
+    tbody tr:hover {box-shadow:0px 2px 5px #337ab7;}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+      	<th>Id</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tbody" class='cursor-pointer'>
+      
+    </tbody>
+  </table>
+</div>
+
+<script>
+	$(document).ready(function(){
+       $.getJSON("https://jsonplaceholder.typicode.com/users", function(result){
+          $.each(result, function(i, field){
+          	row_data = `
+             <tr>
+              <td>${field.id}</td>
+              <td>${field.name}</td>
+              <td>${field.username}</td>
+              <td>${field.email}</td>
+              <td></td>
+            </tr>
+            `            
+            $("#tbody").append(row_data);            
+          });
+       });
+    });
+
+</script>
+
+
+</body>
+</html>
