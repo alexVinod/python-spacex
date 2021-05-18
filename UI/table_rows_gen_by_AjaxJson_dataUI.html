@@ -11,6 +11,11 @@
   	.cursor-pointer {cursor:pointer}
     tbody tr {}
     tbody tr:hover {box-shadow:0px 2px 5px #337ab7;}
+    
+    .bg-ygreen {background-color:yellowgreen;}
+    .bg-none {background-color:none;}
+    
+    .text-ygreen {color:yellowgreen}
   </style>
 </head>
 <body>
@@ -33,16 +38,20 @@
 </div>
 
 <script>
-	$(document).ready(function(){
+  function fun_onclick(rowid) {
+        $(rowid + " .action-icon").toggleClass("glyphicon-ok-sign text-ygreen");
+    }
+
+$(document).ready(function(){
        $.getJSON("https://jsonplaceholder.typicode.com/users", function(result){
           $.each(result, function(i, field){
           	row_data = `
-             <tr>
+             <tr id="${"row"+i}" onclick=fun_onclick("${'#row'+i}")>
               <td>${field.id}</td>
               <td>${field.name}</td>
               <td>${field.username}</td>
               <td>${field.email}</td>
-              <td></td>
+              <td><i class='action-icon glyphicon'></i></td>
             </tr>
             `            
             $("#tbody").append(row_data);            
