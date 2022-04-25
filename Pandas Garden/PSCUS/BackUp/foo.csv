@@ -1,0 +1,16 @@
+,st1_accountnum,st1_accounttype,st1_balance,st2_accountnum,st2_accounttype,st2_balance
+0,1,checking,87.0,1.0,checking,87.0
+1,2,checking,36.0,2.0,checking,36.0
+2,3,checking,82.0,3.0,checking,82.0
+3,4,checking,48.0,4.0,checking,48.0
+4,5,savings,80.0,8.0,savings,80.0
+5,6,checking,84.0,7.0,checking,84.0
+6,7,savings,66.0,6.0,savings,66.0
+7,8,,21.0,5.0,checking,21.0
+8,9,checking,54.0,9.0,checking,54.0
+9,10,checking,65.0,10.0,checking,65.0
+10,11,savings,24.0,11.0,savings,24.0
+11,12,savings,15.0,12.0,savings,15.0
+12,13,savings,55.0,,,
+13,14,,,,,
+14,15,,,,,

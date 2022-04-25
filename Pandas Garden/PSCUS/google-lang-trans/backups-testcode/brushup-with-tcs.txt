@@ -1,0 +1,45 @@
+TCS Project Overview - Python Development Project
+-------------------------------------------------
+1) Retriving the data from Oracle, other sources and manipulating the data
+   and insert into SQL ServerDB its like PSCU(Payment System of Credit ) Account
+
+2) Technologies:
+    Python, Oracle, SQL Server
+
+    Source Systems:
+    ---------------
+    Major of source system is Oracle
+    Retrive data from active directory
+    Retrive data from Big Packet Jira
+
+    Some other source system--
+    may be active directory and Big Packet need to work analysis and have to connect with systems
+
+3) Few Points to Brush Up:
+    1. How to connect Python to active directory    |  This are major source systems
+    2. How to connect to Jira and Big Packet        |  oracle is major source.
+    3. How to Connecting Python to Java API         |  majority of processors using oracle as
+       (Explore the connectivity of APIs)           |  source system.
+     (JIRA and Big Packet need to connect with API) |  Few systems using active directory as source
+     (Through Python connect with API)              |  systems where need to retrive the data from active
+     (This are source systems connect & get data)   |  directory.
+                                                    |  Few systems using Jira, connect to Jira and get data.
+                                                    |  Few systems using Big Packet, to connect and get data.
+                                                    |  To connect Jira and Big Packet by using API's(that way)
+                                                    |  using API's
+                                                    |
+    4. Destination always be SQL Server (INSERT, UPDATE) into SQL Server
+    5. Arround 18 processors where need to automate. Right now customer manually INSERTING to SQL SERVER.
+       Through tools SPARX Enterprise tool(connect to DB )
+    6. How to connect SPARX Enterprise tool from Python
+    7. Manual work to Automate everything.
+    8. Database Related Scripts and Shell scripts (.sh file)
+        (check the performance of server and CPU memory. To pull/get server details )
+    9. Python Script to connect with different DB system (MySQL server, Oracle server)
+        (different packages to connect database system).
+    10. Data Engineer part like Read data from Excel
+    11. Once come to project will share the BRD to see 18 Processors and what are source systems &
+        how the mapping gone happen in BRD itself
+        Need to understand the FLOW.
+       
+    

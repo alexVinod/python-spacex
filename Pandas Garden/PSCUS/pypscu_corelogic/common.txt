@@ -1,0 +1,177 @@
+Common
+------------------------------------------------------------
+- Tell about yourself ?
+- How much experience you have?
+- What are the projects you dealed and your role?
+
+
+
+Rajesh - 		Not Interested(Resume already Processed)
+
+Saravanan -		Available at 7:00PM for call, 
+				Have 3.5 Year experience, worked 1 year data analysit and web development(Django Framework) 
+
+Kishor - 		Have Have Good Knowledge
+
+Kameshwar  - 8602 6706 26
+Pavan - 9075 6862 42
+Prashanth - 96321 84447
+Panvan Manputra - 95616 62970
+
+Goutam Roy - 9874236765
+
+Ms. Arzoo Singh  9051384287
+
+-----------------------------------------------------------------------
+Ms. Ankita Chatarkar 9850 5951 42
+
+Hi Goutam Roy
+I am vinod calling from TCS
+we got your profile from TCS for python developer 
+
+Tell about yourself, 
+what type project 
+Roles and responsbility
+
+
+
+Ms. Ravuri Anjali Devi     ==== 9620 3987 80
+A&I - Business Analytics   
+C2  
+10.5  
+TCS-Banglore  
+Python with Data science, Machine Learning
+
+
+
+
+1. 	Difference between a list and a tuple?
+3. 	Use of Pythonstartup environment variable?
+11. How are files deleted in Python?
+18. What is Exception Handling?
+19. How to connect Python DB database like MYSQL, PostgreSQL, Oracle and DB2
+21. you are Aware of Pandas, numpy
+22. How do you clean up the data in Pandas
+23. How to merge two different dataframes
+24. In Python how you open file and perform operations in file
+25. 
+
+
+Questions
+-------------------------------------------------------------
+
+0. 	Difference between Python version 2 and Python version 3?
+
+1. 	Difference between a list and a tuple?
+2. 	What is PEP 8?
+3. 	Use of Pythonstartup environment variable?
+
+4. 	What are the positive and negative indices?
+5. 	What is a decorator?
+6. 	Explain the range function?
+7. 	What is Dict and List comprehensions are?
+8. 	What is pass in Python?
+9. 	What is docstring in Python?
+10. What are Python modules?
+11. How are files deleted in Python?
+12. What the difference is between append and extend?
+13. How is multithreading achieved in Python?
+14. Difference between Python Arrays and lists?
+15. What does this mean: *args, **kwargs? And why would we use it?
+16. Explain split () and join() functions in Python?
+17. How would you perform unit-testing on your Python code?
+18. What is Exception Handling?
+19. How to connect Python DB database like MYSQL, PostgreSQL, Oracle and DB2
+20. What are Parameterized constructors and Non-parameterized constructors in python?
+
+--------------------------------------------------------------------------------------
+I am vinod calling from TCS
+we got your profile from TCS for UI and Python developement role
+
+Ms. Arzoo Singh  9051384287   Not Available
+Mr Vamsi Krishna 8686571502   Not Available
+Ms. Pavithra     9942150676   Interested in testing Project
+
+Tell about yourself, 
+what type project 
+Roles and responsbility
+
+Hi Nagender   9654768517
+
+
+UI (HTML, CSS, JS & jQuery)
+=========================================
+HTML
+1. wht is HTML and were it can use?
+2. wht are Form Elements and why we use form?
+3. wht are methods have to transfer data from Form?
+4. how does button, submit, reset button differs?
+5. how can make a table in Html?
+
+CSS
+1. wht is use of CSS?
+2. Wht is box layout and list them ?
+3. why Media Queries use in CSS?
+4. wht are css selectors ?
+5. how many ways to insert CSS?
+
+JS
+1. Do u know jQuery ?
+2. how can select a element using JS or jQuery ?
+3. folowing list contains numbers 
+       [1,2,3,4,5] 
+      how can u append, pop items in list
+4. do u know ECMASCRIPT ?
+    => wht is let and const and wht is diff?
+5. diff map and filter ?
+
+
+Sudip Kumar - 8972634617
+Jyothi      - 7729980368
+Supritha    - 9972535593
+Revanth     - 7416557280
+
+Lakshmi     - 9962197553 Python, Html, SQL - if gets chance can learn and will do 
+Sowmiya     - 9087266834 Python, Basic SQL - Allocated (Standard Satus Account)
+Vinay       - 8499912769 Python, DJ and GO 
+              backend and UI               - Have Basic knowledge on all those listed
+Vignesh     - 9943688033 Python, Html      - Good 
+Praneeth    - 8919744737 Python, RPA       - Not Answered
+Hari Prasath- 8531881081 Python, JavaScript, SQL - Not Answered
+Nagaraju    - 7396522317 Python(asked for 1-2 days time for learning)
+
+I am vinod calling from TCS
+we got your profile from TCS for python developer 
+
+Tell about yourself, 
+what type project 
+Roles and responsbility
+
+Python 
+==========================================
+1. Diff b/w list and tuple and which is faster ?
+2. What are Python modules used recently ?
+3. did u worked in files handling (read, write and append text into file)?
+4. do u know exception handling ?
+5. How can connect Python to DB ?
+6. What is a decorator?
+7. do u know pandas?
+
+
+
+
+
+Flask - Python
+=====================================
+1. What are the advantages of Flask Python  ?
+    1.1. wht are recent modules used in Flask?
+    1.2. Diff b/w Flask and Django ?
+    1.3. how is memory managed in Flask Python? 
+2. What are the HTTP methods provided by Python Flask?
+3. wht is the use of template engines in Flask Python?
+4. wht format flask follow MVC/MVT?
+5. how can u connect DB in Flask ?
+6. did u work in Rest API?
+7. Can we use model base query? 
+
+

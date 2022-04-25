@@ -1,0 +1,24 @@
+Check TABLE EXISTS/NOT
+------------------------
+IF EXISTS
+  (SELECT object_id FROM sys.tables
+  WHERE name = "temp_tbl"
+  AND SCHEMA_NAME(schema_id) = 'dbo')
+  PRINT 'Exists'
+ELSE
+  PRINT 'Not Exist';
+______________________________________________
+IF OBJECT_ID('temp_tbl', 'U') IS NOT NULL
+  PRINT 'The table exists'
+ELSE
+  PRINT 'The table does not exist';
+-------------------------------------------------------------------------------
+SELECT * FROM information_schema.tables
+WHERE table_name = 'YOUR TABLE'
+
+
+if not exists (select * from sysobjects where name='temp_tbl' and xtype='U')
+    create table temp_tbl1 (
+        Name varchar(64) not null
+    )
+go
