@@ -1,0 +1,7 @@
+IMigrate :
+=================================
+1. Light background
+2. Login Page (once we login then only we see IMagrate page)
+3. Have a logout button also
+4. Plain login page is sufficient 
+5. Up lift the look
