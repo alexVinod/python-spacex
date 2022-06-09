@@ -1,0 +1,27 @@
+IMigrate :
+=================================
+1. Light background
+2. Login Page (once we login then only we see IMagrate page)
+3. Have a logout button also
+4. Plain login page is sufficient 
+5. Up lift the look
+
+====================================================
+cf
+uname : 
+password:
+Org:
+Space:
+regoin:
+
+kf:
+projectID 
+regoin
+cluster
+file: json
+
+========================================================
+1. Once click on iMigrate put popup processing icon
+2. Once click on COG Icon > User to save some data
+	=> Form open configure the source(one option would be there)
+	=> And config the target 
