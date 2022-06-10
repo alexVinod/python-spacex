@@ -25,3 +25,6 @@ file: json
 2. Once click on COG Icon > User to save some data
 	=> Form open configure the source(one option would be there)
 	=> And config the target 
+
+
+curl -u us2er1-mail_com:sec-URE@3241  'http://35.196.240.200:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate'
