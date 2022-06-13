@@ -26,5 +26,11 @@ file: json
 	=> Form open configure the source(one option would be there)
 	=> And config the target 
 
-
+One 1:
+----------------------------
 curl -u us2er1-mail_com:sec-URE@3241  'http://35.196.240.200:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate'
+
+
+Two 2:
+----------------------------------------
+curl -u us2er1-mail_com:sec-URE@3241  'http://34.139.199.194:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=fromgit'
