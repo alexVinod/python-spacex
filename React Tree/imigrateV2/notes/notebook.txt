@@ -34,3 +34,8 @@ curl -u us2er1-mail_com:sec-URE@3241  'http://35.196.240.200:32000/job/Gradle-bu
 Two 2:
 ----------------------------------------
 curl -u us2er1-mail_com:sec-URE@3241  'http://34.139.199.194:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=fromgit'
+
+Windows + R
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+
