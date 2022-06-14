@@ -1,0 +1,8 @@
+List of Servers :
+======================================
+https://enable-cors.org/server.html
+
+
+Adding our url after the below url :
+=====================================
+https://cors-anywhere.herokuapp.com/${url}
