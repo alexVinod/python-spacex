@@ -6,3 +6,38 @@ https://enable-cors.org/server.html
 Adding our url after the below url :
 =====================================
 https://cors-anywhere.herokuapp.com/${url}
+
+
+REACT APPROACH :
+==================================================================================================
+4 Ways for CORS for ReactJS
+--------------------------------------------------------------------------------------------------
+1. // Windows + R (To avoid CROS access error)
+   // chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+2.   https://cors-anywhere.herokuapp.com/${url}
+
+3.  Placing Proxy@package.json    
+      => "proxy": "http://34.139.199.194:32000/",
+
+
+4. Using Node Proxy Service (not worked for me)
+      => installing 
+            npm i --save http-proxy-middleware
+      
+      => create setupProxy.js file
+
+      => code :
+      
+      ```
+          const proxy = require("http-proxy-middleware");
+
+          module.exports = function (app) {
+              app.use(
+                  proxy("/users", {
+                      target: "https://jsonplaceholder.typicode.com",
+                      changeOrigin: true
+                  })
+              )
+          }
+    ```
