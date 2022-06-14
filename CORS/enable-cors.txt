@@ -10,7 +10,7 @@ https://cors-anywhere.herokuapp.com/${url}
 
 REACT APPROACH :
 ==================================================================================================
-4 Ways for CORS for ReactJS
+4 Ways for CORS for ReactJS - https://www.youtube.com/watch?v=hxyp_LkKDdk
 --------------------------------------------------------------------------------------------------
 1. // Windows + R (To avoid CROS access error)
    // chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
