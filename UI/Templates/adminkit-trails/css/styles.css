@@ -1,0 +1,46 @@
+html, body {
+	overflow-x: hidden;
+}
+
+.bg-lavender {
+	background: #7a52b3;
+	background-color: #7a52b3;
+}
+
+.text-light {
+	color: #FFF !important;
+}
+
+.text-dark {
+	color: #262626 !important;
+}
+
+.text-lavender {
+	color: #7a52b3 !important;	
+}
+
+.btn-lavender {
+    color: #fff;
+    background: #7a52b3;
+    border-color: #7a52b3;
+}
+
+.m-1 {
+	margin: 10px !important;
+}
+
+.ml-1 {
+	margin-left: 10px !important;
+}
+
+.ml-2 {
+	margin-left: 20px !important;
+}
+
+.p-1 {
+	padding: 10px !important;
+}
+
+.logo-xs {
+	width: 30px;
+}
