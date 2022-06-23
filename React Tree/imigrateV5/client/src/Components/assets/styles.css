@@ -1,0 +1,218 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.bg-transparent {
+    background-color: transparent;
+    background: transparent;
+}
+
+.bg-trans-dark {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-trans-blue {
+    background-color: rgba(52, 45, 113, 0.2) !important;
+    background: rgba(52, 45, 113, 0.2);
+}
+
+.btn-navy {
+    background-color: #184461 !important;
+    border-color: #184461 !important;
+}
+
+.text-nodeco {
+    text-decoration: none;
+}
+
+.text-gold {
+    color: yellow !important;
+}
+
+.text-honey {
+    color: honeydew;
+}
+
+.text-chaco {
+    color: chocolate;
+}
+
+.text-shadow-black {
+    text-shadow: 0px 0px 1px #262626;
+}
+
+.custom-select {
+    border: #262626;
+    padding: 3px;
+}
+
+.shadow-dark {
+    box-shadow: 0px 0px 3px #212529;
+}
+
+.small-icons {
+    width: 60px;
+    height: 50px;
+}
+
+.box-circle {
+    border-radius: 50%;
+}
+
+.mt-mins-10 {
+    margin-top: -45px;
+}
+
+.mt-mins-20 {
+    margin-top: -20px !important;
+}
+
+.mt-mins-60 {
+    margin-top: -60px !important;
+}
+
+.mt-mins-140 {
+    margin-top: -140px !important;
+}
+
+.xs-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.darrow-icon {
+    width: 70px !important;
+    height: 50px !important;
+}
+
+.flip-img-right {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.box-shadow-dark {
+    box-shadow: 0px 0px 0px none;
+}
+
+.box-shadow-dark:hover {
+    box-shadow: 0px 0px 6px #212529;
+    border-radius: 50%;
+    padding: 2px;
+    -webkit-transition: border-radius 0.5s;
+    transition: border-radius 0.5s;
+}
+
+.spin-box-l {
+    transition: transform .7s ease-in-out;
+}
+
+.spin-box-l:hover {
+    transform: rotate(360deg);
+}
+
+.spin-box-r {
+    transition: transform .7s ease-in-out;
+}
+
+.spin-box-r:hover {
+    transform: rotate(-360deg);
+}
+
+
+/*------------- Pie  UI Styles ---------------------*/
+.box-radius {
+    border-radius: 50%
+}
+
+.box-card {
+    width: 440px !important;
+}
+
+.box-item {
+    height: 200px;
+}
+
+/*Top Left Radius*/
+.box-tlr {
+    border-top-left-radius: 200px;
+    box-shadow: 0px 0px 8px #FFA900;
+}
+
+.box-tlr:hover {
+    margin-top: -6px;
+    margin-left: -6px;
+    margin-right: 8px;
+    box-shadow: 3px 3px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Top Right Radius*/
+.box-trr {
+    border-top-right-radius: 200px;
+    box-shadow: 0px 0px 8px #00B74A;
+}
+
+.box-trr:hover {
+    margin-top: -6px;
+    margin-right: -6px;
+    margin-left: 8px;
+    box-shadow: -3px 3px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Bottom Left Radius*/
+.box-blr {
+    border-bottom-left-radius: 200px;
+    box-shadow: 0px 0px 8px #39C0ED;
+}
+
+.box-blr:hover {
+    margin-top: 5px;
+    margin-bottom: -6px;
+    margin-left: -6px;
+    margin-right: 8px;
+    box-shadow: 3px -3px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Bottom Right Radius*/
+.box-brr {
+    border-bottom-right-radius: 200px;
+    box-shadow: 0px 0px 8px #1266F1;
+}
+
+.box-brr:hover {
+    margin-top: 5px;
+    margin-bottom: -6px;
+    margin-right: -6px;
+    margin-left: 8px;
+    box-shadow: -2px -2px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Text Aligning in Circles*/
+.box-tl-align {
+    margin-left: 39px;
+    margin-top: 23px;
+}
+
+.box-tr-align {
+    margin-top: 29px;
+    margin-right: 21px;
+}
+
+.box-bl-align {
+    margin-left: 39px;
+    margin-bottom: 23px;
+}
+
+.box-br-align {
+    margin-bottom: 29px;
+    margin-right: 21px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

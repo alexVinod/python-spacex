@@ -1,0 +1,7 @@
+{
+    "mongo_db_uri": "mongodb+srv://gunbros:12345@cluster0.rx8rtmt.mongodb.net/test",
+    "mongo_db_name": "afme",
+    "mongo_collection": "afme",
+    "jenkins_host": "http://34.75.95.232:32000/",
+    "jenkins_gradle_build": "/job/Gradle-builder/buildWithParameters?token=token&TEST=fromgit"
+}
