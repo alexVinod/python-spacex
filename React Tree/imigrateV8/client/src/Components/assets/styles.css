@@ -1,0 +1,389 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.bg-lywhite {
+    background-color: none;
+    background: none;
+    border-radius: none;
+    padding: 8px;
+}
+
+.bg-lywhite:hover {
+    background-color: #FFF;
+    background: #FFF;
+    border-color: #FFF;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0px 0px 6px #ccc;
+    transition: ease-in 1.7s ease-in-out;
+}
+
+
+.bg-transparent {
+    background-color: transparent;
+    background: transparent;
+}
+
+.bg-trans-dark {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-trans-blue {
+    background-color: rgba(52, 45, 113, 0.2) !important;
+    background: rgba(52, 45, 113, 0.2);
+}
+
+.btn-navy {
+    background-color: #184461 !important;
+    border-color: #184461 !important;
+}
+
+.font-fam-vijaya {
+    font-family: vijaya;
+}
+
+.text-nodeco {
+    text-decoration: none;
+}
+
+.text-gold {
+    color: yellow !important;
+}
+
+.text-honey {
+    color: honeydew;
+}
+
+.text-chaco {
+    color: chocolate;
+}
+
+.text-shadow-black {
+    text-shadow: 0px 0px 1px #262626;
+}
+
+.txt-focus {
+    color: #778899 !important;
+}
+
+.txt-focus:focus {
+    color: #212529 !important;
+}
+
+.custom-select {
+    border: #262626;
+    padding: 3px;
+}
+
+.shadow-dark {
+    box-shadow: 0px 0px 3px #212529;
+}
+
+.lg-circle-icons {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #ccc;
+    padding: 18px;
+}
+
+.rocket-eclipse {
+    width: 60px;
+    height: 60px;
+    border-radius: 100% 20%;
+    padding: 5px;
+    box-shadow: 0px 0px 8px #ccc;
+}
+
+.rocket-eclipse:hover {
+    /* padding-bottom: 50px;
+    padding-left: 50px; */
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px #ccc;
+    -webkit-transition: box-shadow 1.5s;
+    transition: box-shadow 1.5s;
+    /* -webkit-transition: padding-bottom 1.5s, padding-left 1.5s;
+    transition: padding-bottom 1.5s, padding-left 1.5s; */
+}
+
+.small-circle-icons {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #ccc;
+    background-color: #00aaff;
+}
+
+.small-circle-icons:hover {
+    background-color: #fff;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.box-circle {
+    border-radius: 50%;
+}
+
+
+.mt-mins-1 {
+    margin-top: -1px;
+}
+
+.mt-mins-5 {
+    margin-top: -5px;
+}
+
+.mt-mins-10 {
+    margin-top: -45px;
+}
+
+.mt-mins-20 {
+    margin-top: -20px !important;
+}
+
+.mt-mins-60 {
+    margin-top: -60px !important;
+}
+
+.mt-mins-80 {
+    margin-top: -80px !important;
+}
+
+.mt-mins-100 {
+    margin-top: -100px !important;
+}
+
+.mt-mins-140 {
+    margin-top: -140px !important;
+}
+
+.ml-mins-10 {
+    margin-left: -10px !important;
+}
+
+.ml-mins-50 {
+    margin-left: -50px !important;
+}
+
+.ml-mins-60 {
+    margin-left: -60px !important;
+}
+
+.ml-mins-70 {
+    margin-left: -70px !important;
+}
+
+.ml-mins-80 {
+    margin-left: -80px !important;
+}
+
+.ml-mins-90 {
+    margin-left: -90px !important;
+}
+
+.ml-mins-120 {
+    margin-left: -120px !important;
+}
+
+.mr-mins-40 {
+    margin-right: -40px !important;
+}
+
+.mr-mins-50 {
+    margin-right: -50px !important;
+}
+
+.mr-mins-60 {
+    margin-right: -60px !important;
+}
+
+.mr-mins-70 {
+    margin-right: -70px !important;
+}
+
+.mr-mins-90 {
+    margin-right: -90px !important;
+}
+
+.xs-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.xsa-icon {
+    width: 30px;
+}
+
+.small-icon {
+    width: 50px;
+    /* height: 40px; */
+}
+
+.kube-icon {
+    width: 178px;
+    height: auto;
+    margin-top: -52px;
+}
+
+.triangle-hr {
+    border: none;
+    height: 10px;
+    background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #8c8c8c 0) 0 5px;
+    background-color: #fff;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+}
+
+.darrow-icon {
+    width: 70px !important;
+    height: 50px !important;
+}
+
+.flip-img-right {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.box-shadow-dark {
+    box-shadow: 0px 0px 0px none;
+}
+
+.box-shadow-dark:hover {
+    box-shadow: 0px 0px 6px #212529;
+    border-radius: 50%;
+    padding: 2px;
+    -webkit-transition: border-radius 0.5s;
+    transition: border-radius 0.5s;
+}
+
+.spin-box-l {
+    transition: transform .7s ease-in-out;
+}
+
+.spin-box-l:hover {
+    transform: rotate(360deg);
+}
+
+.spin-box-r {
+    transition: transform .7s ease-in-out;
+}
+
+.spin-box-r:hover {
+    transform: rotate(-360deg);
+}
+
+.show-hide {
+    display: block;
+}
+
+.show-hide:hover {
+    display: none;
+}
+
+.hide-show {
+    display: none;
+}
+
+.hide-show:hover {
+    display: show;
+}
+
+/*------------- Pie  UI Styles ---------------------*/
+.box-radius {
+    border-radius: 50%
+}
+
+.box-card {
+    width: 440px !important;
+}
+
+.box-item {
+    height: 200px;
+}
+
+/*Top Left Radius*/
+.box-tlr {
+    border-top-left-radius: 200px;
+    box-shadow: 0px 0px 8px #FFA900;
+}
+
+.box-tlr:hover {
+    margin-top: -6px;
+    margin-left: -6px;
+    margin-right: 8px;
+    box-shadow: 3px 3px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Top Right Radius*/
+.box-trr {
+    border-top-right-radius: 200px;
+    box-shadow: 0px 0px 8px #00B74A;
+}
+
+.box-trr:hover {
+    margin-top: -6px;
+    margin-right: -6px;
+    margin-left: 8px;
+    box-shadow: -3px 3px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Bottom Left Radius*/
+.box-blr {
+    border-bottom-left-radius: 200px;
+    box-shadow: 0px 0px 8px #39C0ED;
+}
+
+.box-blr:hover {
+    margin-top: 5px;
+    margin-bottom: -6px;
+    margin-left: -6px;
+    margin-right: 8px;
+    box-shadow: 3px -3px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Bottom Right Radius*/
+.box-brr {
+    border-bottom-right-radius: 200px;
+    box-shadow: 0px 0px 8px #1266F1;
+}
+
+.box-brr:hover {
+    margin-top: 5px;
+    margin-bottom: -6px;
+    margin-right: -6px;
+    margin-left: 8px;
+    box-shadow: -2px -2px 18px #000;
+    transition: all 0.2s linear;
+}
+
+/*Text Aligning in Circles*/
+.box-tl-align {
+    margin-left: 39px;
+    margin-top: 23px;
+}
+
+.box-tr-align {
+    margin-top: 29px;
+    margin-right: 21px;
+}
+
+.box-bl-align {
+    margin-left: 39px;
+    margin-bottom: 23px;
+}
+
+.box-br-align {
+    margin-bottom: 29px;
+    margin-right: 21px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
