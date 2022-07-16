@@ -1,0 +1,271 @@
+IMigrate :
+=================================
+1. Light background
+2. Login Page (once we login then only we see IMagrate page)
+3. Have a logout button also
+4. Plain login page is sufficient 
+5. Up lift the look
+
+====================================================
+cf
+uname : 
+password:
+Org:
+Space:
+regoin:
+
+kf:
+projectID 
+regoin
+cluster
+file: json
+
+========================================================
+1. Once click on iMigrate put popup processing icon
+2. Once click on COG Icon > User to save some data
+	=> Form open configure the source(one option would be there)
+	=> And config the target 
+
+http://34.75.95.232:32000/
+
+
+NEW 
+=====================================================================================
+curl -u us2er1-mail_com:sec-URE@3241  'http://34.139.199.194:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=fromgit'
+
+
+OLD
+=====================================================================================
+curl -u us2er1-mail_com:sec-URE@3241  'http://35.196.240.200:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate'
+
+
+
+curl -u us2er1-mail_com:sec-URE@3241  'http://34.139.199.194:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate'
+
+
+
+us2er1-mail_com
+sec-URE@3241
+
+
+
+https://cors-anywhere.herokuapp.com/
+
+
+
+
+4 Ways for CORS for ReactJS
+====================================================================================
+1. // Windows + R (To avoid CROS access error)
+   // chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+2.   https://cors-anywhere.herokuapp.com/${url}
+
+3.  Placing Proxy@package.json    
+      => "proxy": "http://34.139.199.194:32000/",
+
+
+4. Using Node Proxy Service (not worked for me)
+      => installing 
+            npm i --save http-proxy-middleware
+      
+      => create setupProxy.js file
+
+      => code :
+      
+      ```
+          const proxy = require("http-proxy-middleware");
+
+          module.exports = function (app) {
+              app.use(
+                  proxy("/users", {
+                      target: "https://jsonplaceholder.typicode.com",
+                      changeOrigin: true
+                  })
+              )
+          }
+    ```
+
+
+UI Changes Updates :
+=============================================
+1. When we click iMigrate button and when fire the jenkins Display a msg :
+    
+    Hi the migration Pivotal cloud foundary to Google Kubernetes Engine started, u will get an email notification once the migration is complete 
+
+
+    Migration process has started
+    and Get Show msg 
+      - Google Kubernetes Engine (GKE) or 
+      - Kf or
+      - Azure k8s 3  or
+      - AWS K8s or
+      - Open Shift
+
+2. 
+
+
+
+ask Gaurav to put a POST buid email notification
+
+
+
+UI Changes and Landing Page :
+==========================================================================
+1. Semi-Circle at Landing Page with 4 items [Assestment, Fetment, Migrate, Evaluate]
+2. In Migrate Page
+    => Remove Containerized and Non Containerized
+    => Left side add one more field Provide ur source [GITHUB Path] atlast place
+    => Fix Region spellng
+    => Kubernatees Wheel > Project
+        -> Whatever we type in project should in dropdownList
+3. React + MongoDB 
+    => Login table to store all the credentials (using this we can also give Signup option, username email would be sent)
+    => Intagrate with MongoDB backend
+    => Configuration Table (Cloud Foundary, Kubernatees, )
+    => Whenever we Migrate, make a entry in Migration Table
+        -> Source : Cloud Foundary
+        -> Target : Kubernatees (GKE/Azure/other...)
+        -> Migration Status : Success/Failure
+        -> Timestamp : when it happened (DATE & TIME)
+
+4. https://mongoosejs.com/
+
+https://kb.objectrocket.com/mongo-db/a-nodejs-mongoose-schema-example-1204
+
+
+function performSignIn() {
+
+  let headers = new Headers();
+
+  headers.append('Content-Type', 'application/json');
+  headers.append('Accept', 'application/json');
+
+  headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
+  headers.append('Access-Control-Allow-Credentials', 'true');
+
+  headers.append('GET', 'POST', 'OPTIONS');
+
+  headers.append('Authorization', 'Basic ' + base64.encode(username + ":" + password));
+
+  fetch(sign_in, {
+      //mode: 'no-cors',
+      credentials: 'include',
+      method: 'POST',
+      headers: headers
+    })
+    .then(response => response.json())
+    .then(json => console.log(json))
+    .catch(error => console.log('Authorization failed : ' + error.message));
+}
+
+
+
+
+var url = "https://webiste.com/api/v1/users/sendInfo",
+    username = "...",
+    password = "...";
+xhr.open('POST', url, true, username, password);
+xhr.send(...);
+
+
+fetch("https://domain.provider.com/mas/api/v1/mail/transaction", {
+  body: "{\"id\":\"3970a1b0-6e27-448a-adfc-0083db15b2fb\", \"tokens\":{\"design_token1\":\"Hi\",\"design_token2\":\"Hello\",\"design_token3\":\"World\",\"subject_token1\":\"XYZ\"}, \"recipient\":\"james@sample.com\"}",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+    Token: "sfg999666t673t7t82"
+  },
+  method: "POST"
+})
+
+
+
+
+
+
+
+
+
+
+==================================================================
+// var http_request;
+        // http_request = new XMLHTTPRequest();
+        // http_request.onreadystatechange = function () { /* .. */ };
+        // http_request.open("POST", "http://34.139.199.194:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=fromgit");
+        // http_request.withCredentials = true;
+        // http_request.setRequestHeader("Content-Type", "application/json");
+        // http_request.send({ 'request': "authentication token" });
+
+        // header = new Header()
+        // header.Add("Access-Control-Allow-Origin", "*")
+        // header.Add("Access-Control-Allow-Methods", "DELETE, POST, GET, OPTIONS")
+        // header.Add("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
+
+        // var urls = "http://35.196.240.200:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate",
+        //     username = "us2er1-mail_com",
+        //     password = "sec-URE@3241";
+
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.open('GET', urls, true, username, password);
+        // // xhr.open('GET', urls, true, username, password);
+        // xhttp.send();
+
+        // var url = "http://35.196.240.200:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate";
+
+        // var xhr = new XMLHttpRequest();
+        // xhr.open("GET", url);
+
+        // xhr.setRequestHeader("Authorization", "Basic dXMyZXIxLW1haWxfY29tOnNlYy1VUkVAMzI0MQ==");
+
+        // xhr.onreadystatechange = function () {
+        //     if (xhr.readyState === 4) {
+        //         console.log(xhr.status);
+        //         console.log(xhr.responseText);
+        //     }
+        // };
+
+        // var data = '{"j_username":"us2er1-mail_com","j_password":"sec-URE@3241"}';
+
+        // xhr.send(data);
+        // let username = "us2er1-mail_com";
+        // let password = "sec-URE@3241";
+        // const options = {
+        //     method: "POST",
+        //     headers: {
+        //         "Authorization": "Bearer" + "dXMyZXIxLW1haWxfY29tOnNlYy1VUkVAMzI0MQ=="
+        //     }
+        // }
+
+        // fetch("http://35.196.240.200:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=no&MYSTRING=CallfromImigrate/" + username, options)
+        //     .then((response) => response.json())
+        //     .then(data => {
+        //         console.log(data);
+        //     });
+
+        // var url = "http://34.139.199.194:32000/job/Gradle-builder/buildWithParameters?token=token&TEST=fromgit",
+        //     username = "us2er1-mail_com",
+        //     password = "sec-URE@3241";
+        // var xhrs = new XMLHttpRequest();
+        // xhrs.open('POST', url, true, username, password);
+        // xhrs.setRequestHeader("Authorization", "Basic dXMyZXIxLW1haWxfY29tOnNlYy1VUkVAMzI0MQ==");
+        // xhrs.send();
+
+        // var xhr = new XMLHttpRequest();
+
+        // xhr.open(method, url);
+
+
+
+
+
+https://www.youtube.com/watch?v=ZzSOIstLYhQ
+
+Butons :
+===================================================
+https://wpshopmart.com/free-html-css-buttons/#:~:text=%2025%20Best%20Free%20HTML%20CSS%20Buttons%20,type%20of...%205%20CSS%20Sliced%20Button%20More%20
+Water - Button :
+https://codepen.io/waaark/pen/VbgwEM
+https://dev.to/gscode/20-css-buttons-4cni
+https://dev.to/webdeasy/top-20-css-buttons-animations-f41
+http://jsfiddle.net/alvaromenendez/y5x01vfg/3/

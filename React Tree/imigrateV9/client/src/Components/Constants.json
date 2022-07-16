@@ -1,0 +1,9 @@
+{
+    "fitmentTest": {
+        "gkf_title": "Click the Kf migrate plan command Your application technology stack - <Tech name> ex: Java   [retrive from manifest file]",
+        "gke_title": "Click the GKE migrate plan command Your application technology stack - <Tech name> ex: Java   [retrive from manifest file]",
+        "aks_title": "Click the AKS migrate plan command Your application technology stack - <Tech name> ex: Java   [retrive from manifest file]",
+        "eks_title": "Click the EKS migrate plan command Your application technology stack - <Tech name> ex: Java   [retrive from manifest file]",
+        "openShiftTitle": "Click the Open Shift migrate plan command Your application technology stack - <Tech name> ex: Java   [retrive from manifest file]"
+    }
+}
