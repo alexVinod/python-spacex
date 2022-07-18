@@ -1,0 +1,9 @@
+{
+    "HOSTCONNECTION": {
+        "hostname": "http://34.125.188.100:3001"
+    },
+    "JENKINSCONNECTION": {
+        "hostname": "http://34.139.195.199:32000/",
+        "HOSTPATH": "http://34.139.195.199:32000/job/"
+    }
+}

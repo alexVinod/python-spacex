@@ -1,0 +1,7 @@
+{
+    "DBCONNECTION": {
+        "USERNAME": "gunbros",
+        "PASSWORD": "12345",
+        "URL": "mongodb+srv://gunbros:12345@cluster0.rx8rtmt.mongodb.net/afme?retryWrites=true&w=majority"
+    }
+}
