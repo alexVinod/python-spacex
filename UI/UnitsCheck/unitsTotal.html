@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+Total: <input type="number" id="total" value="0"/> <br/>
+Unit1: <input type="number" id="unit1" value="0"/> <br/>
+Unit2: <input type="number" id="unit2" value="0"/> <br/>
+Unit3: <input type="number" id="unit3" value="0"/> <br/>
+
+Limit: <span id="totalby">0</span>/<span id="totalEntered">0</span>
+
+<script>
+  $(document).ready(function(){
+    let total = 0;
+    let unit1 = 0; 
+    let unit2 = 0;
+    let unit3 = 0;
+    let totalBy = 0;
+    
+    $("#total").change(function(){
+        total = $("#total").val();
+        $("#totalEntered").text(Number(total));
+    });
+    
+    $("#unit1").change(function(){
+        total = $("#total").val();
+        unit1 = Number($("#unit1").val());
+        unit2 = Number($("#unit2").val());
+        unit3 = Number($("#unit3").val());
+        // totalBy = Number($("#totalby").text());
+        totalBy = Number(total-(unit1+unit2+unit3));
+        
+        if(unit1 <= total){
+            let cond1 = (unit1 <= unit2 || unit1 >= unit2 || unit1 === unit2);
+            let cond2 = (unit1 <= unit3 || unit1 >= unit3 || unit1 === unit3);
+            let cond3 = ((unit1 + unit2 + unit3) <= total);
+            let cond4 = ((unit1+unit2+unit3) > total)
+            if(!cond1 && !cond2 && !cond3 && !cond4) {
+                alert("Unit1 is Greater than Total Value");
+            } else {
+                if((Number(totalBy) < 0)){              
+                    $("#unit1").val(0);
+                    $("#unit1").focus();
+                    alert("Should not exceed the limit")
+                } else {
+                    console.log(cond1, cond2, cond3, cond4);
+                    $("#totalby").text(totalBy);
+                }               
+            }
+        } else {
+            alert("Unit1 should be lesser than total value");
+            $("#unit1").val(0);
+            $("#unit1").focus();
+        }
+    });
+    
+    $("#unit2").change(function(){
+        total = $("#total").val();
+        unit1 = Number($("#unit1").val());
+        unit2 = Number($("#unit2").val());
+        unit3 = Number($("#unit3").val());
+        // totalBy = Number($("#totalby").text());
+        totalBy = Number(total-(unit1+unit2+unit3));
+        
+        if(unit2 <= total){
+            let cond1 = (unit2 <= unit1 || unit2 >= unit1 || unit2 === unit1);
+            let cond2 = (unit2 <= unit3 || unit2 >= unit3 || unit2 === unit3);
+            let cond3 = ((unit1 + unit2 + unit3) <= total);
+            let cond4 = ((unit1 + unit2 + unit3) > total)
+            if(!cond1 && !cond2 && !cond3 && !cond4) {
+                alert("Unit1 is Greater than Total Value");
+            } else {
+                if((Number(totalBy) < 0)){              
+                    $("#unit2").val(0);
+                    $("#unit2").focus();
+                    alert("Should not exceed the limit")
+                } else {
+                    console.log(cond1, cond2, cond3, cond4);
+                    $("#totalby").text(totalBy);
+                }               
+            }
+        } else {
+            alert("Unit2 should be lesser than total value");
+            $("#unit2").val(0);
+            $("#unit2").focus();
+        }
+    });
+    
+    $("#unit3").change(function(){
+        total = $("#total").val();
+        unit1 = Number($("#unit1").val());
+        unit2 = Number($("#unit2").val());
+        unit3 = Number($("#unit3").val());
+        // totalBy = Number($("#totalby").text());
+        totalBy = Number(total-(unit1+unit2+unit3));
+        
+        if(unit3 <= total){
+            let cond1 = (unit3 <= unit1 || unit3 >= unit1 || unit3 === unit1);
+            let cond2 = (unit3 <= unit2 || unit3 >= unit2 || unit3 === unit2);
+            let cond3 = ((unit1 + unit2 + unit3) <= total);
+            let cond4 = ((unit1 + unit2 + unit3) > total)
+            if(!cond1 && !cond2 && !cond3 && !cond4) {
+                alert("Unit1 is Greater than Total Value");
+            } else {
+                if((Number(totalBy) < 0)){              
+                    $("#unit3").val(0);
+                    $("#unit3").focus();
+                    alert("Should not exceed the limit")
+                } else {
+                    console.log(cond1, cond2, cond3, cond4);
+                    $("#totalby").text(totalBy);
+                }               
+            }
+        } else {
+            alert("Unit3 should be lesser than total value");
+            $("#unit3").val(0);
+            $("#unit3").focus();
+            
+        }
+    });
+  });   
+</script>
+</body>
+</html>
